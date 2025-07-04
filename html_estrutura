@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Seu Nome Completo</h1>
+    </header>
+
+    <main>
+        <p>Olá! Meu nome é [Seu Nome], tenho [Sua Idade] anos e moro em [Sua Cidade]. Sou apaixonado(a) por [mencione um interesse principal, ex: tecnologia, leitura, música] e estou sempre buscando aprender coisas novas e me divertir com meus hobbies.</p>
+
+        <button id="mensagemBtn">Clique para ver uma mensagem!</button>
+        <p id="mensagem" style="display: none;"></p>
+
+        <h2>Meus Hobbies Favoritos</h2>
+        <ul>
+            <li>Caminhada na natureza</li>
+            <li>Ler livros de fantasia</li>
+            <li>Cozinhar novas receitas</li>
+        </ul>
+
+        <img src="https://via.placeholder.com/300x200?text=Caminhada" alt="Pessoa caminhando na natureza">
+
+        <h2>Países que Quero Visitar</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>País</th>
+                    <th>Imagem</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Japão</td>
+                    <td><img src="https://via.placeholder.com/100x70?text=Japao" alt="Bandeira do Japão"></td>
+                </tr>
+                <tr>
+                    <td>Itália</td>
+                    <td><img src="https://via.placeholder.com/100x70?text=Italia" alt="Bandeira da Itália"></td>
+                </tr>
+                <tr>
+                    <td>Nova Zelândia</td>
+                    <td><img src="https://via.placeholder.com/100x70?text=Nova+Zelandia" alt="Bandeira da Nova Zelândia"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>
+            <a href="https://www.tecmundo.com.br/" target="_blank">Visite o TecMundo (Site de Tecnologia)</a>
+        </p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
