@@ -1,19 +1,19 @@
 body {
-    background-color: #f0f8ff; /* Cor suave para o fundo */
+    background-color: #f0f8ff;
     font-family: Arial, sans-serif;
     margin: 20px;
     color: #333;
 }
 
 h1 {
-    color: #4682b4; /* Cor diferente para o título */
-    text-align: center; /* Título centralizado */
+    color: #4682b4; 
+    text-align: center; 
     margin-bottom: 30px;
 }
 
 p {
-    font-size: 1.1em; /* Tamanho de fonte maior para o parágrafo */
-    text-align: justify; /* Parágrafo justificado */
+    font-size: 1.1em; 
+    text-align: center; 
     line-height: 1.6;
     margin-bottom: 20px;
 }
@@ -24,14 +24,14 @@ ul {
 }
 
 ul li {
-    margin-bottom: 10px; /* Espaçamento maior entre os itens da lista */
+    margin-bottom: 10px; 
 }
 
 img {
-    border-radius: 15px; /* Bordas arredondadas */
-    max-width: 100%; /* Garante que a imagem se ajuste ao contêiner */
-    height: auto; /* Mantém a proporção */
-    display: block; /* Remove espaçamento extra abaixo da imagem */
+    border-radius: 15px; 
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
     margin: 20px 0;
 }
 
@@ -39,7 +39,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
 }
 
 table, th, td {
@@ -65,8 +65,7 @@ table img {
     width: 100px; /* Tamanho adequado para imagens na tabela */
     height: 70px;
     object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
-    margin: 0; /* Remove margem extra */
-}
+    margin: 0; 
 
 a {
     color: #007bff;
